@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-image: url("/Book-Swap1/assets/images/slide_04.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+em
+{
+	color : white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0056b3;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: red; /* Mixed text color: Red */
+}
+
+nav {
+    margin: 20px 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 10px;
+    font-size: 1.2em;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.col-md-4 {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.option-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.option-item:hover {
+    transform: translateY(-5px);
+}
+
+.option-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.option-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.option-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.option-item img {
+    width: 60%; /* Makes the image fill the width of its container */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 200px; /* Optional: Limits image size */
+    display: block; /* Ensures the image behaves like a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.form-container {
+    margin-top: 10px;
+    width: 60%; /* Reduced the width of the form container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-box {
+    display: none;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-content h2 {
+    font-size: 24px;
+    color : red;
+}
+
+.form-content p {
+    font-size: 24px;
+    color : black;
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    font-size: 16px;
+}
+
+button {
+    background-color: #c0c0c0;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.bottom-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Label color change */
+label {
+    color: black; /* Change label color to black */
+}
+
+/* Hidden class to manage form visibility */
+.hidden {
+    display: none;
+}
+
+/* Style for the form box container */
+#viewBooks {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Style for the content within the form box */
+.form-content {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Header styling */
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Table headers */
+th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Table body styling */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+/* Table data cells */
+td {
+    padding: 12px;
+    text-align: left;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+/* Image styling for book photo */
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* Button styling for "View Book" */
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: red; /* Mixed text color: Red */
+    border-top: 3px solid #0056b3;
+    margin-top: 40px;
+}
